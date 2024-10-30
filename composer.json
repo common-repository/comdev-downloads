@@ -1,0 +1,46 @@
+{
+  "name": "comdev/files",
+  "description": "Downloads Plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0",
+  "autoload": {
+    "psr-4": {
+      "Comdev\\Files\\": "src/php"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Comdev\\Files\\": "src/php"
+    }
+  },
+  "authors": [
+    {
+      "name": "comdev"
+    },
+    {
+      "name": "alexl",
+      "email": "admin@i-wp-dev.com"
+    }
+  ],
+  "prefer-stable": true,
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "wp-coding-standards/wpcs": "^2.3",
+    "php-coveralls/php-coveralls": "^2.4"
+  },
+  "require": {
+    "htmlburger/carbon-fields": "^v3.6.3"
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/phpcs --colors --standard=phpcs.xml"
+  }
+}

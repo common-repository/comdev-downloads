@@ -1,0 +1,58 @@
+
+.cd-tbl-template-horizontal-1,
+.cd-tbl-template-horizontal-2 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cd-tbl-template-horizontal-1 {
+    padding: 5px;
+}
+
+.cd-tbl-template-horizontal-1 thead tr th,
+.cd-tbl-template-horizontal-2 thead tr th  {
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.cd-tbl-template-horizontal-1 thead tr th {
+    text-align: center;
+    padding: 16px 12px;
+    font-size: 14px;
+    background: #fbf1f1;
+    border: 1px solid #e1e1e1!important;
+}
+
+.cd-tbl-template-horizontal-2 thead tr th {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 15px;
+}
+
+.cd-tbl-template-horizontal-1 tbody tr td,
+.cd-tbl-template-horizontal-1 tbody tr th {
+    border: 1px solid #e1e1e1!important;
+}
+
+.cd-tbl-template-horizontal-1 tbody tr td a,
+.cd-tbl-template-horizontal-2 tbody tr td a {
+    padding-left: 10px!important;
+}
+
+.cd-tbl-template-horizontal-1 .cd-files-table-body tr td,
+.cd-tbl-template-horizontal-2 .cd-files-table-body tr td
+{
+    display: table-cell;
+    padding: 16px 12px;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+
+.tab-download-wrapper .cd-files-table-body a,
+.cd-link-disabled {
+    pointer-events: none;
+    cursor: default;
+}

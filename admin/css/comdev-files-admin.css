@@ -1,0 +1,143 @@
+
+html {
+	background: unset !important;
+}
+
+.comdev-files:has(.comdev-files-dashboard) #wpcontent,
+.comdev-files:has(.comdev-files-settings) #wpcontent,
+.comdev-files:has(.comdev-files-templates) #wpcontent {
+	padding-left: 0;
+}
+
+.comdev-files .comdev-files-header-incl {
+	margin-left: -20px;
+}
+
+.comdev-files-header {
+	border-bottom: 1px solid #ddd;
+}
+.comdev-files-header .comdev-logo {
+	max-width: 60px;
+}
+
+.comdev-files-dashboard .uk-card p {
+	font-size: 15px;
+}
+
+.comdev-files-wrap-footer p {
+	font-size: 12px !important;
+}
+
+.comdev-files-stats .cd-file-number {
+	font-weight: bold
+}
+
+.comdev-files .cd-files-select {
+	width: 300px
+}
+
+.uk-button-primary-magenta, .cd-pro {
+	background-color: #db1569;
+	color: #fff !important;
+	border: 1px solid transparent;
+}
+
+.comdev-files-header .cd-pro {
+	font-weight: bold;
+}
+
+.comdev-files .wp-list-table {
+	border: 1px solid #14212f;
+!important;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.comdev-files .wp-list-table thead tr {
+	background-color: #14212f;
+}
+
+.comdev-files .wp-list-table thead tr th {
+	color: #ffffff !important;
+	text-align: left;
+}
+
+.comdev-files .wp-list-table thead th, .comdev-files .wp-list-table thead td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.comdev-files .wp-list-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.comdev-files .wp-list-table tbody tr:nth-of-type(even) {
+}
+
+.comdev-files .wp-list-table tbody tr.active-row {
+	font-weight: bold;
+	color: #009879;
+}
+
+
+.cd-tbl-template-horizontal-1,
+.cd-tbl-template-horizontal-2 {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cd-tbl-template-horizontal-1 {
+	padding: 5px;
+}
+
+.cd-tbl-template-horizontal-1 thead tr th,
+.cd-tbl-template-horizontal-2 thead tr th  {
+	font-size: .875rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.cd-tbl-template-horizontal-1 thead tr th {
+	text-align: center;
+	padding: 16px 12px;
+	font-size: 14px;
+	background: #fbf1f1;
+	border: 1px solid #e1e1e1!important;
+}
+
+.cd-tbl-template-horizontal-2 thead tr th {
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 15px;
+}
+
+.cd-tbl-template-horizontal-1 tbody tr td,
+.cd-tbl-template-horizontal-1 tbody tr th {
+	border: 1px solid #e1e1e1!important;
+}
+
+
+.cd-tbl-template-horizontal-1 .cd-files-table-body tr td,
+.cd-tbl-template-horizontal-2 .cd-files-table-body tr td
+{
+	display: table-cell;
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: bottom;
+	font-size: 14px;
+}
+
+.button-success {
+	background: #00a32a !important;
+}
+
+#carbon_fields_container_comdev_download_list1 .postbox-header {
+	background: #e4eef7;
+}
+
+.toplevel_page_comdev-files .dashicons-before img {
+	width: 20px;
+}
